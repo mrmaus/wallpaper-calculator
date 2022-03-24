@@ -31,6 +31,6 @@ public class MainIT {
     }
 
     final String expected = Files.readString(new File(MainIT.class.getResource("/sample-output.txt").toURI()).toPath());
-    assertEquals(expected, tmp.toString());
+    assertEquals(expected, tmp.toString().replaceAll("\r", ""));
   }
 }
