@@ -14,7 +14,7 @@ mvn clean verify package
 
 ## Running
 
-Maven build an executable jar, so it can be executed directly with java command, for example
+Maven builds an executable jar, so it can be executed directly with java command, for example
 
 ```shell
 java -jar target/wallpaper-calculator-1.0-SNAPSHOT.jar sample-input.txt
